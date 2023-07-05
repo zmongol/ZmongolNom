@@ -29,6 +29,9 @@ class _MainScreenState extends State<MainScreen> {
           backgroundColor: Theme.of(context).primaryColor,
           selectedItemColor: Theme.of(context).colorScheme.secondary,
           unselectedItemColor: Colors.grey[500],
+          // selectedLabelStyle: TextStyle(   // To add MongolFont
+          //   fontFamily: 'z52agolatig',
+          // ),
           elevation: 20,
           type: BottomNavigationBarType.fixed,
           items: <BottomNavigationBarItem>[
